@@ -51,7 +51,8 @@ fetch("https://striveschool-api.herokuapp.com/books")
           "border-secondary",
           "align-items-center",
           "justify-content-between",
-          "mb-3"
+          "mb-3",
+          "bg-secondary"
         );
         const cartImg = document.createElement("img");
         cartImg.classList.add("img-fluid");
