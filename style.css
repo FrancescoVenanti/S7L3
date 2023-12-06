@@ -1,0 +1,10 @@
+#cart {
+  background-color: lightgrey;
+  border-radius: 10px;
+  min-width: 100px;
+  min-height: 100px;
+}
+#books img {
+  height: 70%;
+  object-fit: cover;
+}
