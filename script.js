@@ -12,7 +12,7 @@ fetch("https://striveschool-api.herokuapp.com/books")
       const col = document.createElement("div");
       col.classList.add("col-3");
       const card = document.createElement("div");
-      card.classList.add("card", "shadow");
+      card.classList.add("card", "shadow", "h-100");
       const cardImg = document.createElement("img");
       cardImg.src = img;
       cardImg.classList.add("card-img", "img-fluid");
