@@ -55,7 +55,7 @@ fetch("https://striveschool-api.herokuapp.com/books")
           "bg-secondary"
         );
         const cartImg = document.createElement("img");
-        cartImg.classList.add("img-fluid");
+        cartImg.classList.add("d-none", "d-md-block");
         cartImg.src = img;
         cartImg.style = "width:50px";
         const cartTitle = document.createElement("p");
